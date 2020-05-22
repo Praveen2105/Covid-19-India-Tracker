@@ -149,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private String getFormattedDate(String dateHeader) {
-        Log.d("Prakash", "getFormattedDate: " + dateHeader.subSequence(3, 5));
+        Log.d("Praveen", "getFormattedDate: " + dateHeader.subSequence(3, 5));
         switch (dateHeader.substring(3, 5)) {
             case "01":
                 return dateHeader.substring(0, 2) + " Jan";
